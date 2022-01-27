@@ -1,1 +1,144 @@
-<h1> Hello, World </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,900+Source+Sans+Pro:300,900&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="https://www.instagram.com/_lucid_air_/"><img src="img/Mysignature1.png" alt="Rudra Narayan" ></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+             <!-- <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>  -->
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Clicks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--Introduction-->
+
+    <section class="intro" id="home">
+        <h1 class="sec__title sec__title--intro">
+            Hi,I am <strong>Rudra Narayan</strong>
+        </h1>
+        <p class="sec__subtitle sec__subtitle--intro">Mobile Photographer|front-end Developer</p>
+        <img src="img/rudra1.jpg" alt="a picture of Rudra Narayan smiling"  class="intro__img">
+    </section>
+
+
+    <!-- My Servises 
+    <section class="my-services" id="services">
+        <h2 class="sec__title sec__title--services">What Have I done</h2>
+        <div class="services">
+            <div class="service">
+               <h3>Front End Projects</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ex perferendis fuga sint. Error quas quaerat cum reprehenderit voluptatibus accusamus vitae. Magni, odio suscipit.
+               </p>
+            </div>
+
+            <div class="service">
+                <h3>Java Projects</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat quasi nisi ad laudantium recusandae explicabo deleniti perspiciatis ducimus nobis. Ducimus aspernatur, eligendi consequatur vitae odio accusantium sed obcaecati, alias, aliquid expedita iste tempore?</p>
+             </div>
+
+             <div class="service">
+                <h3>MERN Projects</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur earum quibusdam repellat dolores atque tempora eos quia delectus alias eum ea, non repellendus similique provident ullam fugiat facere autem, architecto assumenda pariatur? Quos, quidem.</p>
+             </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>-->
+
+
+    <!--About ME!!?-->
+<section class="about-me" id="about">
+    <h2 class="sec__title sec__title--about">Who the heck am I !!?</h2>
+    <p class="sec__subtitle sec__subtitle--about"></p>
+
+    <div class="about-me__body">
+        <p>First step, I am a car enthusiast and spend much of my time researching for it. Always in search of getting a chance to have  a sight for supercars! Moreover I am a Mobile photographer who tries his best to take a fabulous shot. Coming to my educational strategy,I am an UG engineering student specialised in the field of Compuer Science and Engineering under B.Tech Curriculum.</p>
+        <p></p>
+    </div>
+
+    <img src="img/rudra2.jpg" alt="Rudra learning web-dev" height="650px" width="340px" class="about-me__img">
+    <a href="https://www.instagram.com/_lucid_air_/" class="btn">Follow me on Instagram</a>
+</section>
+
+
+<!-- My Work -->
+<section class="my-work" id="work">
+    <h2 class="sec__title sec__title--work">My Clicks</h2>
+    <p class="sec__subtitle sec__subtitle--work">A collection of my Edits...</p>
+
+    <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="#" class="portfolio__item" >
+            <img src="img/insectleaf.jpg" alt="" class="portfolio__img" >
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="#" class="portfolio__item">
+            <img src="img/pinkcloudcoconut.jpeg" alt="" class="portfolio__img" height="500px" width="600px">
+        </a> 
+
+        <!-- Portfolio item 03 -->
+        <a href="#" class="portfolio__item">
+            <img src="img/leaves.jpg" alt="" class="portfolio__img" >
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="#" class="portfolio__item">
+            <img src="img/cloudysky.jpg" alt="" class="portfolio__img" height="500px" width="530px">
+        </a> 
+
+         <!-- Portfolio item 05 -->
+         <a href="#" class="portfolio__item">
+            <img src="img/blueskyandsunset1.jpg" alt="" class="portfolio__img" >
+        </a>
+
+         <!-- Portfolio item 06 -->
+         <a href="#" class="portfolio__item">
+            <img src="img/light.jpeg" alt="" class="portfolio__img" >
+        </a>
+        
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <a href="mailto:brnsubudhi1151@gmail.com" class="footer__link">brnsubudhi1151@gmail.com</a>
+    <ul class="social-list">
+        <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/_lucid_air_/"><i
+            class="fab fa-instagram"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://github.com/RudraNarayan2002"><i
+            class="fab fa-github"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/BRudraNarayanS1?t=C71VX1uu5ZVH8zx4wx39mw&s=09"><i
+            class="fab fa-twitter"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/rudranarayan.subudhi.1/"><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+</html>
